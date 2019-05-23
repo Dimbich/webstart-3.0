@@ -1,0 +1,33 @@
+body {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333;
+}
+
+.title, .item p{
+  text-align: center;
+}
+
+h1.title {
+  margin-top: 70px;
+  margin-bottom: 80px;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;  
+  margin: 0;
+  padding: 0;  
+  height: 125px;
+  font-size: 16px;  
+}
+
+.item p {
+  margin: 0;
+  font-weight: 700;
+}
+
